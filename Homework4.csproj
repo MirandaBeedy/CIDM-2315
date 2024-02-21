@@ -1,0 +1,17 @@
+﻿namespace Homework4;
+
+class Program {
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Shape Left:");
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine(new string('*', i));
+        }
+        Console.WriteLine("\nShape Right:");
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine(new string(' ', 5 - i) + new string('*', i));
+        }
+    }
+}
