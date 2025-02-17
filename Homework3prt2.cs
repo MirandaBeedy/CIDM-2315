@@ -11,7 +11,7 @@ class Program
         {
             for (int h = 0; h < N; h++)
             {
-                 Console.Write("*");
+                 Console.Write("#");
             }
 
             Console.WriteLine();
