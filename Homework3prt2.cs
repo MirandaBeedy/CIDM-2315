@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("Assing a int value to N: ");
+        Console.Write("Assign a value to N: ");
         int N = int.Parse(Console.ReadLine());
 
         for (int i = 0; i < N; i++)
