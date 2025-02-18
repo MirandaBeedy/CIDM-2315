@@ -1,4 +1,4 @@
-﻿namespace Homework3prt2;
+namespace Homework3prt2;
 
 class Program
 {
