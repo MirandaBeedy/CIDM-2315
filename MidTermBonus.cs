@@ -2,7 +2,7 @@
 
 class HumanPlayer
 {
-    private int points; // the points that the human player has
+    private int points;
 
     public HumanPlayer(int initial)
     {
@@ -38,13 +38,13 @@ class ComputerPlayer
     // The computer player randomly picks up a shape from Rock, Paper, or Scissors
     public string ComputerDecision()
     {
-        int decision = random.Next(3); // generates 0, 1, or 2
+        int decision = random.Next(3);
         switch (decision)
         {
             case 0: return "Rock";
             case 1: return "Paper";
             case 2: return "Scissors";
-            default: return "Rock"; // default case
+            default: return "Rock";
         }
     }
 }
