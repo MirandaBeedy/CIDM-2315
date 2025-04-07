@@ -35,7 +35,6 @@ class ComputerPlayer
 {
     private Random random = new Random();
 
-    // The computer player randomly picks up a shape from Rock, Paper, or Scissors
     public string ComputerDecision()
     {
         int decision = random.Next(3);
